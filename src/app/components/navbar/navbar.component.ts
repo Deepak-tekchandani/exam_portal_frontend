@@ -10,7 +10,7 @@ import { LoginService } from 'src/app/services/login/login.service';
 export class NavbarComponent implements OnInit {
 
   isLoggedIn = false;
-  user = null;
+  user:any = null;
 
   constructor(public login:LoginService) { }
 
